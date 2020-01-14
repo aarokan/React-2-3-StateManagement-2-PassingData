@@ -3,7 +3,6 @@ import MovieCard from './MovieCard'
 
 class Dashboard extends Component {
   render() {
-    console.log(this.props)
     const { profiles, users, movies } = this.props
     return (
       <div>
